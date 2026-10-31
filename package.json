@@ -1,0 +1,14 @@
+{
+  "name": "sandbox-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "bench": "node bench/parse.js"
+  },
+  "dependencies": {
+    "kleur": "3.0.3",
+    "ms": "2.0.0"
+  }
+}
